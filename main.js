@@ -59,7 +59,7 @@ const { fromUtf8 } = require("@iov/encoding");
     // Entropy: Secure implementation is left to the client, but it is recommended to use base-64 encoded random bytes and not predictable inputs.
 
     var contractAddress='secret1xzlgeyuuyqje79ma6vllregprkmgwgavk8y798';
-    const secretkey="bananapapaya";
+    const secretkey="secret key";
 
     // Convert the UTF8 bytes to String, before parsing the JSON for the api key.
     
@@ -71,7 +71,7 @@ const { fromUtf8 } = require("@iov/encoding");
             address: accAddress
         }
     };
-var recipients="secret17qpzsmvsks6lme8u6q87sf20w2cca97ljcgcm9";
+var recipients="recipient";
    // Transfer some tokens
    handleMsg = {
     transfer: 
