@@ -26,7 +26,7 @@ var response="";
     const httpUrl = 'https://bootstrap.secrettestnet.io/';
   
     // Use key created in tutorial #2
-    const mnemonic ='predict heart island attend stone gadget between cactus erode evil milk since' ;
+    const mnemonic ='mnemonic' ;
   
     // A pen is the most basic tool you can think of for signing.
     // This wraps a single keypair and allows for signing.
