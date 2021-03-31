@@ -1,4 +1,5 @@
 # fiat2fats
+For buying fats with paypal
 
 # step 1
 Replace the mnemonic phrases and wallet on the .env file with your mnemonic phrases and wallet address for the tesnet
