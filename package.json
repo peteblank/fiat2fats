@@ -1,24 +1,18 @@
 {
-  "name": "secretjs-templates",
+  "name": "fiat2ftasexpress",
   "version": "1.0.0",
-  "description": "SecretJS templates for Secret Network",
-  "main": "index.js",
+  "description": "",
+  "main": "express.js",
   "scripts": {
-    "1": "node main.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node express.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "secretjs": "^0.10.3",
-    "dotenv": "^8.2.0"
-  },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/enigmampc/SecretJS-Templates.git"
-  },
-  "bugs": {
-    "url": "https://github.com/enigmampc/SecretJS-Templates/issues"
-  },
-  "homepage": "https://github.com/enigmampc/SecretJS-Templates#readme"
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "secretjs": "^0.11.0"
+  }
 }
